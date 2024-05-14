@@ -1,12 +1,26 @@
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #212529;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #dc3545;
+    border-color: lightgray;
+}
+
 .navbar {
     position: fixed;
     z-index: 1;
     top: 0;
-    width: 100%
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
-.html {
-    position: relative;
+.table{
+    margin-bottom: 5rem;
 }
 
 .small-image {

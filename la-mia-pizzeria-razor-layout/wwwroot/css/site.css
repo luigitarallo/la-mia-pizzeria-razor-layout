@@ -8,7 +8,6 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     background-color: #dc3545;
-    border-color: lightgray;
 }
 
 .navbar {
@@ -17,6 +16,12 @@ body::-webkit-scrollbar-thumb {
     top: 0;
     width: 100%;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.wrapper {
+    background-image: url('/img/immagine-pizzeria.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .table{
@@ -28,11 +33,6 @@ body::-webkit-scrollbar-thumb {
     max-height: 150px;
 }
 
-.wrapper {
-    background-image: url('/img/immagine-pizzeria.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 h1 {
     color: white;
